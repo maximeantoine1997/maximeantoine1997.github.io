@@ -1211,11 +1211,12 @@
   }
 
   .column {
+    margin-bottom: 1rem;
     padding-left: 1rem;
   }
 
   .column-2 {
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
