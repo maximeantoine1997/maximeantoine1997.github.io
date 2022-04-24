@@ -300,7 +300,9 @@
 }
 
 .dev-icon.solidity {
-  padding: 1rem 2rem;
+  height: auto;
+  max-width: 60%;
+  padding: 1rem 0rem;
 }
 
 .dev-icon.node-js {
@@ -807,8 +809,9 @@
   }
 
   .dev-icon.solidity {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    max-width: 70%;
+    padding-right: 0rem;
+    padding-left: 0rem;
   }
 
   .dev-icon.node-js {
@@ -1029,6 +1032,10 @@
 
   .dev-icon {
     padding-left: 0rem;
+  }
+
+  .dev-icon.solidity {
+    max-width: 40%;
   }
 
   .dev-icon.typescript-logo {
@@ -1296,17 +1303,28 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .dev-icon.solidity {
+    max-width: 50%;
+  }
+
   .dev-icon.node-js {
+    max-width: 80%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
 
   .dev-icon.typescript-logo {
+    max-width: 80%;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
+  .dev-icon.webpack-logo {
+    max-width: 80%;
+  }
+
   .dev-icon.graphql-logo {
+    max-width: 80%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
