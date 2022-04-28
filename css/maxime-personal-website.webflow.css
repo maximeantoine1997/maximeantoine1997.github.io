@@ -310,6 +310,7 @@
 }
 
 .dev-icon.typescript-logo {
+  max-width: 80%;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
